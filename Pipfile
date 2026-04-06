@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["standard"], version = "*"}
+asyncpg = "*"
+pyjwt = "*"
+pydantic-settings = "*"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
